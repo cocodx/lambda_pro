@@ -18,6 +18,7 @@ public class Program5 {
         System.out.println(dogService2.getDog("小花",2));
     }
 
+    @FunctionalInterface
     interface DogService{
         Dog getDog();
     }
